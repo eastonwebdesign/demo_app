@@ -10,11 +10,11 @@ group :production do
 end
 
 group :test do
-  gem 'sqlite3-ruby', :require => 'sqlite3'
+  gem 'sqlite3-ruby', '1.2.5'
 end
 
 group :development do
-  gem 'sqlite3-ruby', :require => 'sqlite3'
+  gem 'sqlite3-ruby', '1.2.5'
 end
 
 
